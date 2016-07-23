@@ -1,13 +1,6 @@
-﻿  Main.cpp
-c:\users\kevin volkel\documents\visual studio 2015\projects\netsermuxadc\netsermuxadc\main.cpp(221): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\kevin volkel\documents\visual studio 2015\projects\netsermuxadc\netsermuxadc\main.cpp(250): warning C4996: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::copy': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+﻿  Winsock_Functions.cpp
+c:\users\kevin volkel\documents\visual studio 2015\projects\netsermuxadc\netsermuxadc\winsock_functions.cpp(77): warning C4996: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::copy': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
   c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(1786): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::copy'
-  Generating Code...
-  Compiling...
-  Serial_Port_functions.cpp
-c:\users\kevin volkel\documents\visual studio 2015\projects\netsermuxadc\netsermuxadc\serial_port_functions.cpp(82): warning C4244: '=': conversion from 'short' to 'char', possible loss of data
-c:\users\kevin volkel\documents\visual studio 2015\projects\netsermuxadc\netsermuxadc\serial_port_functions.cpp(84): warning C4244: '=': conversion from 'short' to 'char', possible loss of data
-c:\users\kevin volkel\documents\visual studio 2015\projects\netsermuxadc\netsermuxadc\serial_port_functions.cpp(86): warning C4244: '=': conversion from 'short' to 'char', possible loss of data
-  Generating Code...
+c:\users\kevin volkel\documents\visual studio 2015\projects\netsermuxadc\netsermuxadc\winsock_functions.cpp(61): warning C4715: 'initserver': not all control paths return a value
   NetSerMuxADC.vcxproj -> C:\Users\Kevin Volkel\Documents\Visual Studio 2015\Projects\NetSerMuxADC\Debug\NetSerMuxADC.exe
   NetSerMuxADC.vcxproj -> C:\Users\Kevin Volkel\Documents\Visual Studio 2015\Projects\NetSerMuxADC\Debug\NetSerMuxADC.pdb (Partial PDB)

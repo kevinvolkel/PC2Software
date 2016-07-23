@@ -18,9 +18,6 @@ void setserial(HANDLE *serial_handle, DCB *serialparams) {
 }
 
 
-
-
-
 //send data function
 void senddata(HANDLE *serial_handle, char *AS_top, char *AS_bot, char *VS_top, char *VS_bot, char *SS_top, char  *SS_bot
 	,char **AS_top_p, char **AS_bot_p, char **VS_top_p, char **VS_bot_p, char **SS_top_p, char  **SS_bot_p) {
@@ -54,6 +51,7 @@ void senddata(HANDLE *serial_handle, char *AS_top, char *AS_bot, char *VS_top, c
 	
 }
 
+
 //function to send intitial 'GO' sequence to mbed
 void startmbed(HANDLE *serial_handle, int loop_num) {
 	int error;
@@ -86,3 +84,4 @@ void convert2_DAC(char *AStop, char *ASbot, char *VStop, char *VSbot, char *SSto
 		SSbot[i] = (short)((buf_data_Z[i] + 1.02) / (LSB));
 	}
 }
+
