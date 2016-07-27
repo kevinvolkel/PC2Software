@@ -1,0 +1,7 @@
+﻿  Serial_Port_functions.cpp
+c:\users\kevin volkel\documents\visual studio 2015\projects\netsermuxadc\netsermuxadc\serial_port_functions.cpp(92): warning C4244: '=': conversion from 'short' to 'char', possible loss of data
+c:\users\kevin volkel\documents\visual studio 2015\projects\netsermuxadc\netsermuxadc\serial_port_functions.cpp(94): warning C4244: '=': conversion from 'short' to 'char', possible loss of data
+c:\users\kevin volkel\documents\visual studio 2015\projects\netsermuxadc\netsermuxadc\serial_port_functions.cpp(96): warning C4244: '=': conversion from 'short' to 'char', possible loss of data
+c:\users\kevin volkel\documents\visual studio 2015\projects\netsermuxadc\netsermuxadc\serial_port_functions.cpp(109): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  NetSerMuxADC.vcxproj -> C:\Users\Kevin Volkel\Documents\Visual Studio 2015\Projects\NetSerMuxADC\Debug\NetSerMuxADC.exe
+  NetSerMuxADC.vcxproj -> C:\Users\Kevin Volkel\Documents\Visual Studio 2015\Projects\NetSerMuxADC\Debug\NetSerMuxADC.pdb (Partial PDB)
